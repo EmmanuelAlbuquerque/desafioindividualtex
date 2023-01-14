@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  background-image: url(/images/banner_03jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+@media (max-width: 414px) {
+  .container {
+    height: 70vh;
+  }
+}
+
+.sombra {
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.7);
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+@media (max-width: 716px) {
+  .header-wrapper {
+    flex-direction: column;
+  }
+}
+.header-wrapper img {
+  width: 250px;
+  height: 98px;
+}
+.header-wrapper nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.header-wrapper nav ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+.header-wrapper nav ul:hover a {
+  color: #000000;
+}
+
+ul:hover li a:not(:hover) {
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+  filter: blur(1px);
+}
+
+.cont {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 6.25rem;
+}
+.cont img {
+  border-radius: 1rem;
+  box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 0.7);
+  margin-bottom: 15px;
+}
+.cont .title-banner {
+  text-align: center;
+  color: #3f4547;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  line-height: 1;
+}
+.cont p {
+  text-align: center;
+  color: #3a3a3a;
+  font-family: "Yusei Magic", Sans-serif;
+  font-weight: 300;
+  line-height: 1.6em;
+  letter-spacing: 1.5px;
+}
+
+.quadro1 {
+  margin: 25px auto;
+}
+
+.quadros {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  height: 60vh;
+}
+.quadros .banner-img1 {
+  margin: 15px 15px;
+  width: 50%;
+  border-radius: 1rem;
+  box-shadow: 15px 10px 20px 4px rgba(0, 0, 0, 0.7);
+}
+.quadros .banner-img2 {
+  margin: 15px 15px;
+  width: 50%;
+  border-radius: 1rem;
+  box-shadow: -15px 10px 20px 4px rgba(0, 0, 0, 0.7);
+}
+.quadros .text-quadro {
+  margin: 30px 0 15px 30px;
+}
+.quadros .text-quadro .title-quadro {
+  text-align: center;
+  color: #3f4547;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  line-height: 1;
+}
+.quadros .text-quadro p {
+  margin: 7% 5% 7% 5%;
+  text-align: center;
+  color: #3a3a3a;
+  font-family: "Yusei Magic", Sans-serif;
+  font-weight: 300;
+  line-height: 1.6em;
+  letter-spacing: 1.5px;
+}
+
+.localizacao {
+  margin: 10px 15px;
+}
+.localizacao .title-local {
+  margin: 5% auto;
+  text-align: center;
+  color: #3f4547;
+  font-family: "Caveat", cursive;
+  font-weight: 300;
+}
+.localizacao iframe {
+  width: 100%;
+  height: 50vh;
+  border: 0;
+  border-radius: 0.62rem;
+}
+
+footer {
+  width: 100%;
+  height: 55vh;
+  margin-top: 5rem;
+}
+
+.container-footer {
+  box-shadow: -2px -1px 20px 0px rgba(0, 0, 0, 0.7);
+}
+.container-footer .row .footer-social {
+  display: flex;
+  gap: 20px;
+}
+.container-footer .row .footer-social ul {
+  list-style: none;
+  text-decoration: none;
+}
+.container-footer .row .footer-social ul li {
+  color: #000000;
+  margin-bottom: 12px;
+}
+.container-footer .row .footer-social ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.container-footer .row .footer-social .social {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.container-footer .row .footer-social .info-footer {
+  font-family: "Yusei Magic", Sans-serif;
+  line-height: 1.6em;
+}
+.container-footer .row .footer-social .footer-nav {
+  text-align: right;
+}
+.container-footer .row .cria {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
