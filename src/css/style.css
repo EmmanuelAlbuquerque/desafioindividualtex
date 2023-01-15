@@ -221,6 +221,7 @@ ul:hover li a:not(:hover) {
   }
   .cont-footer .info-footer {
     text-align: center;
+    margin-right: 1rem;
   }
   .cont-footer .social-footer {
     align-items: center;
@@ -237,6 +238,7 @@ ul:hover li a:not(:hover) {
   }
   .cont-footer .info-footer {
     margin: 0;
+    margin-right: 1rem;
   }
   .cont-footer .nav-footer {
     margin: 0;
