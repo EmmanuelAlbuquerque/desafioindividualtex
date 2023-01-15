@@ -43,6 +43,7 @@ body {
     gap: 10px;
     @media (max-width: 716px) {
       flex-direction: column;
+      align-items: center;
     }
 
     a {
@@ -166,6 +167,7 @@ ul:hover li a:not(:hover) {
     }
   }
   & .social-footer {
+    text-align: center;
     align-items: center;
     & ul li {
       list-style: none;
@@ -178,6 +180,10 @@ ul:hover li a:not(:hover) {
   & .nav-footer {
     text-align: right;
     margin-left: 20rem;
+    @media (max-width: 716px) {
+      align-items: center;
+      text-align: center;
+    }
     & ul li {
       list-style: none;
       & a {
@@ -187,9 +193,22 @@ ul:hover li a:not(:hover) {
     }
   }
 }
+
 @media (max-width: 716px) {
+  .bg-white {
+    position: absolute;
+  }
   .cont-footer {
     flex-direction: column;
+    & .info-footer {
+      text-align: center;
+    }
+    & .social-footer {
+      align-items: center;
+    }
+    & .nav-footer {
+      align-items: center;
+    }
   }
 }
 @media (max-width: 1020px) {
